@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.deps.json
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.AssemblyInfo.cs
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.csprojAssemblyReference.cache
