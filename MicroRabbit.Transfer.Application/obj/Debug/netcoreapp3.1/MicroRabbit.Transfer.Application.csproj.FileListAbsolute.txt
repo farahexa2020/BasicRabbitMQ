@@ -6,3 +6,12 @@ C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.dll
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Domain.Core.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Domain.Core.pdb
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.pdb
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.csproj.CopyComplete
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Data.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Data.pdb
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.pdb

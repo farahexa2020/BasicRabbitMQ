@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
-using MicroRabbit.Infra.IoC;
 using MicroRabbit.Transfer.Data.Context;
+using MicroRabbit.Infra.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,6 +15,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MicroRabbit.transfer.Application.Intefaces;
+using MicroRabbit.transfer.Application.Services;
+using MicroRabbit.Transfer.Domain.Interface;
+using MicroRabbit.Transfer.Data.Repository;
+using static MicroRabbit.Domain.Core.Bus.IEventHandler;
+using MicroRabbit.Transfer.Domain.Events;
+using MicroRabbit.Transfer.Domain.EventHandlers;
+using MicroRabbit.Domain.Core.Bus;
 
 namespace MicroRabbit.Transfer.Api
 {
@@ -45,6 +53,19 @@ namespace MicroRabbit.Transfer.Api
             services.AddMediatR(typeof(Startup));
 
             RegisterServices(services);
+
+            // Subscriptions
+            services.AddTransient<TransferEventHandler>();
+
+            // Domain Events
+            services.AddTransient<IEventHandler<TransferCreatedEvent>, TransferEventHandler>();
+
+            // Application Services
+            services.AddTransient<ITransferService, TransferService>();
+
+            // Data
+            services.AddTransient<ITransferRepository, TransferRepository>();
+            services.AddTransient<TransferDbContext>();
         }
 
         private void RegisterServices(IServiceCollection services)
@@ -76,6 +97,14 @@ namespace MicroRabbit.Transfer.Api
             {
                 endpoints.MapControllers();
             });
+
+            ConfigurEventBus(app);
+        }
+
+        private void ConfigurEventBus(IApplicationBuilder app)
+        {
+            var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<TransferCreatedEvent, TransferEventHandler>();
         }
     }
 }

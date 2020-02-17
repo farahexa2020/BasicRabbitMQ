@@ -25,14 +25,14 @@ namespace MicroRabbit.Transfer.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("AccountBalance")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<int>("FromAccount")
                         .HasColumnType("int");
 
                     b.Property<int>("ToAccount")
                         .HasColumnType("int");
+
+                    b.Property<decimal>("TransferAmount")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

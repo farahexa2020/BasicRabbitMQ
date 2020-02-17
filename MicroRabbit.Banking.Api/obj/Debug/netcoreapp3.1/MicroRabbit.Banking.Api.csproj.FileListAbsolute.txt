@@ -73,3 +73,9 @@ C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreap
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Banking.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Banking.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Data.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Data.pdb
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Banking.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.pdb

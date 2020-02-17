@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MicroRabbit.Banking.Domain.Events
 {
-    class TransferCreatedEvent : Event
+    public class TransferCreatedEvent : Event
     {
         public int From { get; private set; }
         public int To { get; private set; }

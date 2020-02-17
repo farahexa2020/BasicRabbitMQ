@@ -12,16 +12,16 @@ namespace MicroRabbit.Banking.Domain.CommandHandlers
 {
     public class TransferCommandHandler : IRequestHandler<CreateTransferCommand, bool>
     {
-        private readonly IEventBus bus;
+        private readonly IEventBus _bus;
 
         public TransferCommandHandler(IEventBus bus)
         {
-            this.bus = bus;
+            this._bus = bus;
         }
         public Task<bool> Handle(CreateTransferCommand request, CancellationToken cancellationToken)
         {
             // Publish event to RabbitMq
-            this.bus.Publish(new TransferCreatedEvent(request.From, request.To, request.Amount));
+            this._bus.Publish(new TransferCreatedEvent(request.From, request.To, request.Amount));
 
             return Task.FromResult(true);
         }

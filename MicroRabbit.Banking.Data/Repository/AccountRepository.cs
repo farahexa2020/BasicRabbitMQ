@@ -9,15 +9,15 @@ namespace MicroRabbit.Banking.Data.Repository
 {
     public class AccountRepository : IAccountRepository
     {
-        private readonly BankingDbContext context;
+        private readonly BankingDbContext _context;
 
         public AccountRepository(BankingDbContext context)
         {
-            this.context = context;
+            this._context = context;
         }
         public IEnumerable<Account> GetAccounts()
         {
-            return this.context.Accounts;
+            return this._context.Accounts;
         }
     }
 }

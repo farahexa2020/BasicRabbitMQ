@@ -77,3 +77,5 @@ C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcorea
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.pdb
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.dll
+C:\Users\hp\source\repos\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb
